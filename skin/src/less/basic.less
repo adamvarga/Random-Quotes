@@ -1,0 +1,51 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    .quotes-wrapper {
+        .center-block {
+            width: 100%;
+            float: left;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 8px 6px -6px black;
+            -webkit-box-shadow: 0 8px 6px -6px black;
+            border: 1px solid #444;
+            padding: 45px;
+            background: #fff; 
+            &:before {
+                font-family: FontAwesome;
+                position: absolute;
+                content: "\f10d";
+                top: 10px;
+                left: 15px;
+            }
+            &:after {
+                font-family: FontAwesome;
+                position: absolute;
+                content: "\f10e";
+                bottom: 10px;
+                right: 15px;
+            }
+        }
+        .new-quote-generate {
+            width: 100%;
+            float: left;
+            text-align: center;
+            margin: 2rem 0;
+            button {
+                box-shadow: 0 8px 6px -6px black;
+                -webkit-box-shadow: 0 8px 6px -6px black;
+            }
+            .fa-smile-o {
+                display: none;
+            }
+        }
+    }
+}
+.animate {
+    -webkit-transition:background 1s;
+    -moz-transition:background 1s;
+    -o-transition:background 1s;
+    transition:background 1s
+}
+

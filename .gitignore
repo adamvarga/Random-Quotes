@@ -1,0 +1,6 @@
+.DS_Store
+skin/.DS_Store
+skin/src/.DS_Store
+nbproject/
+skin/src/node_modules
+skin/src/package-lock.json
